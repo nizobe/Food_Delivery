@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dat",
+				"date_ditct"
+			],
+			[
+				"write",
+				"writerow"
+			],
+			[
+				"csv",
+				"csvWriter"
+			],
+			[
+				"date",
+				"date_list"
+			],
+			[
+				"r",
+				"r_index"
+			],
+			[
+				"date_",
+				"date_list"
+			],
+			[
+				"data",
+				"dataEnd"
+			],
+			[
+				"info",
+				"infoControlOptions"
+			],
+			[
+				"community",
+				"community_areas"
+			],
+			[
+				"communit",
+				"community_areas"
+			],
+			[
+				"layer",
+				"layerControlOptions"
+			],
+			[
+				"Es",
+				"Esri_WorldImagery"
+			],
+			[
+				"street",
+				"street_map"
+			],
+			[
+				"station",
+				"station_name"
+			],
+			[
+				"peg",
+				"peg_num"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"fea",
+				"features"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"table",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Niko/Documents/GitHub/Food_Delivery"
+	],
+	"file_history":
+	[
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/d3_testing/day_of_year.tsv",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/d3_testing/parsing.py",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/index.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/LeafletEmbed/index.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/LeafletEmbed/index1.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/LeafletEmbed/leaflet_embed.js",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/fw_tabs.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/d3_testing/day_of_week.py",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/FurtherTabsTesting/scrolling_background.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/Divvy_Bicycle_Stations.csv",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/FurtherTabsTesting/tooltip_menu.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/tabs.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/tabs2.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/FurtherTabsTesting/demo.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/FurtherTabsTesting/codepen.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/FurtherTabsTesting/codepen2.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/tabs_test2.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/tabs_test.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/divvy_trips_distances__2-22-14_15-47 .csv",
+		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/Table Editor/README.md",
+		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/Table Editor/Default (Windows).sublime-keymap",
+		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/CS424_Project_2_Mindmap.svg",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/CS424_Project_2.sublime-project",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/CS424_Project_2_Mindmap.mm",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/gm_leaflet.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/multicolor_test.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/google_infowindow.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/google_maps_test2.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/google_maps_test.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/leafletjs_qs.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/formatted_community_areas.json",
+		"/C/Users/Niko/Downloads/lab7.cpp",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/healthcare_providers_dentists.json",
+		"/C/Users/Niko/Dropbox/Code/Peg Solitaire/CS424_Project_2.sublime-project",
+		"/C/Program Files/Sublime Text 3/peg_solitaire.py",
+		"/C/Program Files/Sublime Text 3/peg.py",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/bare/index.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/bare/2index.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/bare/1index.html",
+		"/C/Users/Niko/Dropbox/Code/Facebook/test.html",
+		"/C/Users/Niko/Dropbox/Code/Facebook/myscript.js",
+		"/C/Users/Niko/Dropbox/Code/Facebook/data.json",
+		"/C/Users/Niko/Dropbox/Code/Facebook/getFriends.html",
+		"/C/Users/Niko/Dropbox/Code/Facebook/Facebook Notes.txt",
+		"/C/Users/Niko/Dropbox/Code/Facebook Notes.txt",
+		"/C/Users/Niko/Downloads/formatted-healthcare-providers-dentists.json",
+		"/C/Users/Niko/Dropbox/Public/CS424_Project_1/index.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/index.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/blog-home/index.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/step7.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/chicago_areas.json",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/everyblock-neighborhoods-chicago.json",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/unemployment.tsv",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/us.json",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/formatted-healthcare-providers-dentists.json",
+		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/health_atlas_viewer.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/2010_CA_pops_No-Q_under.csv",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/healthcare_providers_dentists.json",
+		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/select3.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/agerace_female.csv",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/bars.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/CS424_Project_1.sublime-project",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/select.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/simple_html_example.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/select2.html",
+		"/C/Users/Niko/Dropbox/UIC/Fall 2014/CS424/1_project/data.tsv"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			",",
+			"background",
+			">\n",
+			"jQuery",
+			"”",
+			"″",
+			"41",
+			"data",
+			"arg",
+			"everyblock",
+			"q0",
+			"lincoln",
+			"json",
+			"function",
+			"text"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 239.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "food_delivery.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
