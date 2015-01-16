@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"mapb",
+				"mapboxStreets"
+			],
+			[
+				"map",
+				"mapboxStreets"
+			],
+			[
 				"dat",
 				"date_ditct"
 			],
@@ -128,9 +136,10 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Niko/Documents/GitHub/Food_Delivery/index.html",
+		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/index.html",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/d3_testing/day_of_year.tsv",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/d3_testing/parsing.py",
-		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/index.html",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/LeafletEmbed/index.html",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/LeafletEmbed/index1.html",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/LeafletEmbed/leaflet_embed.js",
@@ -216,6 +225,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"street_map",
 			",",
 			"background",
 			">\n",
