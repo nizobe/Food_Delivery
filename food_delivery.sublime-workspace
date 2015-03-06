@@ -87,9 +87,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 311.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"table",
 				"Table Editor: Enable for current syntax"
@@ -118,6 +122,8 @@
 		"height": 181.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
@@ -136,6 +142,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Niko/Documents/GitHub/Food_Delivery/html/index.html",
+		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/C/Users/Niko/Documents/GitHub/Food_Delivery/index.html",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/index.html",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/d3_testing/day_of_year.tsv",
@@ -160,7 +168,6 @@
 		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/Table Editor/README.md",
 		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/Table Editor/Default (Windows).sublime-keymap",
-		"/C/Users/Niko/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/CS424_Project_2_Mindmap.svg",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/CS424_Project_2.sublime-project",
 		"/C/Users/Niko/Documents/GitHub/CS424_Project_2/CS424_Project_2_Mindmap.mm",
