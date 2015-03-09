@@ -10,6 +10,8 @@
 		<!-- JavaScript libraries -->
 		<!-- Leaflet.js -->
 		<script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+		<!-- SelectLayers -->
+		<script src="../lib/js/leaflet.select-layers.min.js"></script>
 	</head>
 	<body>
 		<div id='map'></div><!--holds the actual map-->
@@ -38,11 +40,11 @@
 
 			//MapQuest streets base layer
 			var mqStreetsLayer = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
-					attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-					subdomains: '1234',
-					maxZoom : 18,
-					minZoom: 10,
-					name: "Streets"
+				attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+				subdomains: '1234',
+				maxZoom : 18,
+				minZoom: 10,
+				name: "Streets"
 			});
 
 			//ArcGIS aerial base layer
@@ -54,7 +56,6 @@
 				zoom: 12,
 				layers: mqStreetsLayer//, aerialLayer]// baseLayers[1].layer
 			});
-
 			//L.control.layers(baseLayers, overlays).addTo(map);
 		</script>
 	</body>
