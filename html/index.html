@@ -14,7 +14,8 @@
 	<body>
 		<div id='map'></div><!--holds the actual map-->
 		<script type="text/javascript">
-			var map = L.map('map').setView([41.869910, -87.65], 12);
+			//var map = L.map('map').setView([41.869910, -87.65], 12);
+			//toggleable base layers (mutually exclusive)
 			var baseLayers = [
 				{
 					name: "Base Layers",
@@ -34,12 +35,21 @@
 			        layer: L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}')       
 			    }
 			];
+
+			//create the actual map with default zoom/view set to downtown Chicago and streets by default
+			var map = L.map('map', {
+				center: [41.869910, -87.65],
+				zoom: 12,
+				layers: baseLayers[1].layer
+			});
+
+			//unused streets base layer.
 			L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
 					attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 					subdomains: '1234',
 					maxZoom : 18,
 					minZoom: 10
-			}).addTo(map);
+			});//.addTo(map);
 		</script>
 	</body>
 </html>
