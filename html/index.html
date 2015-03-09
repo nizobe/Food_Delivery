@@ -36,20 +36,20 @@
 			    }
 			];
 
-			//create the actual map with default zoom/view set to downtown Chicago and streets by default
-			var map = L.map('map', {
-				center: [41.869910, -87.65],
-				zoom: 12,
-				layers: baseLayers[1].layer
-			});
-
-			//unused streets base layer.
-			L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
+			//MapQuest streets base layer
+			var mqStreets = L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {
 					attribution: 'Tiles Courtesy of <a href="http://www.mapquest.com/">MapQuest</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
 					subdomains: '1234',
 					maxZoom : 18,
 					minZoom: 10
 			});//.addTo(map);
+
+			//create the actual map with default zoom/view set to downtown Chicago and streets by default
+			var map = L.map('map', {
+				center: [41.869910, -87.65],
+				zoom: 12,
+				layers: mqStreets// baseLayers[1].layer
+			});
 		</script>
 	</body>
 </html>
